@@ -49,7 +49,7 @@ img {
     });
     
     onGet("/graph", function(request, params){
-      return "<img  src='/img/tokyo.png'>";
+      return "<img  src='/img/tokyo.png' alt='Tokyo climate bar chart'>";
     });
     
     // templates
